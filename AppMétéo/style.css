@@ -1,0 +1,37 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+    background: linear-gradient(45deg, rgb(59,50,50), rgb(22,28,29));
+    height: 100vh;
+    min-width: 400px;
+}
+
+
+html, body {
+    background: linear-gradient(45deg, rgb(59,50,50), rgb(22,28,29));
+    background: linear-gradient(45deg, #1068b6, #ec60a6);
+   
+  }
+
+  h1 {
+      text-transform: uppercase;
+  }
+  
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+  }

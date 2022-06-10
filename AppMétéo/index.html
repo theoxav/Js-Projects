@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppMétéo</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center">
+          
+          <div class="col-md-8">
+            <!-- Titre -->
+            <h1 class="text-center mt-5 mb-5">Application Météo</h1>
+            
+            <!-- Ville / Temperature -->
+            <div class="text-center">
+              <h1 id="ville">paris</h1>
+              <img src="./ressources/icon/04d.svg" alt="" class="w-25">
+              <span id="temps">Couvert</span>
+              
+              <div id="temperature">
+                <span id="temperature_label">
+                  xx.x
+                </span> °C
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="row justify-content-center">  
+          <div class="col-md-8 text-center">
+            <!-- Changer de ville -->
+            <div id="changer" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+              Changer de ville
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+ 
+
+<script  src="main.js"></script>
+</body>
+</html>
